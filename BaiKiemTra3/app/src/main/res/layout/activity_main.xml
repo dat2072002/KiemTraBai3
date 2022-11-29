@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Các Thì Trong Tiếng Anh"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#165153"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+        <LinearLayout
+            android:id="@+id/cPT"
+            android:layout_width="170dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/nut"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hiện Tại Đơn"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tPT"
+
+            android:layout_width="170dp"
+
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/nut"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hiện Tại Tiếp Diễn"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:id="@+id/nPT"
+
+            android:layout_width="170dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/nut"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quá Khứ Đơn"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/chPT"
+
+            android:layout_width="170dp"
+
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/nut"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quá Khứ Tiếp Diễn"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:id="@+id/logPT"
+            android:layout_width="170dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/nut"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tương Lai Đơn"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/modPT"
+
+            android:layout_width="170dp"
+
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/nut"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tương Lai Tiếp Diễn"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp">
+
+            </TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:id="@+id/bpPT"
+            android:layout_width="170dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/nut"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tương Lai Hoàn Thành"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/canPT"
+            android:layout_width="170dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/nut"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quá Khứ Hoàn Thành"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

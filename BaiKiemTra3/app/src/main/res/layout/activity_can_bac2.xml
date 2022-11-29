@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CanBac2">
+    <Button
+        android:id="@+id/btback"
+        android:layout_width="122dp"
+        android:layout_height="50dp"
+        android:text="Back" />
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S + had + V3/ed + O"
+            android:textColor="#165153"
+            android:textSize="40sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center">
+
+        <EditText
+            android:id="@+id/soaCB2"
+            android:layout_width="375dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/nut"
+            android:gravity="center|left"
+            android:hint="Ex:"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
+
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tvketquaCB2"
+            android:layout_width="378dp"
+            android:layout_height="70dp"
+            android:background="@drawable/nut"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp">
+
+        </TextView>
+        <Button
+            android:id="@+id/btketquaCB2"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Kết quả"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            >
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

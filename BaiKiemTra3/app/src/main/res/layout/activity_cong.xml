@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cong">
+    <Button
+        android:id="@+id/btback"
+        android:layout_width="122dp"
+        android:layout_height="50dp"
+        android:text="Back" />
+    <LinearLayout
+        android:layout_width="399dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S + V(s/es) + O"
+            android:textColor="#165153"
+            android:textSize="40sp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/soaC"
+            android:layout_width="382dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/nut"
+            android:gravity="center|center_horizontal|left"
+            android:hint="Ex:"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
+
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tvketquaC"
+            android:layout_width="411dp"
+            android:layout_height="70dp"
+            android:background="@drawable/nut"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp">
+
+        </TextView>
+        <Button
+            android:id="@+id/btketquaC"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Kết quả"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            >
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
